@@ -1,0 +1,211 @@
+CHỦ ĐỀ 3: CÁC KỸ NĂNG SỐ CƠ BẢN
+BỘ CÂU HỎI TRẮC NGHIỆM – ĐÁP ÁN ĐÚNG VÀ ĐÍNH CHÍNH
+
+Ghi chú:
+- [✓ ĐÁP ÁN ĐÚNG] đánh dấu đáp án đúng theo dấu tick xanh trong bài làm hoặc phần “Câu trả lời đúng” của tài liệu.
+- Các câu trong bài đạt 10/10 được đối chiếu với nội dung câu hỏi và lựa chọn trong tài liệu.
+- Câu 16 bị trả lời sai trong bài gốc; đáp án đúng được ghi rõ ở phần đính chính bên dưới.
+
+============================================================
+BÀI KIỂM TRA SỐ 1 – DỊCH VỤ CÔNG TRỰC TUYẾN
+============================================================
+
+Câu 1. Đoàn viên thanh niên được xem là nhóm có vai trò như thế nào đối với gia đình trong việc sử dụng dịch vụ công trực tuyến?
+A. Là nhóm duy nhất được phép sử dụng dịch vụ công trực tuyến
+B. [✓ ĐÁP ÁN ĐÚNG] Là “cầu nối công nghệ” hướng dẫn lại gia đình, người thân
+C. Là nhóm không cần quan tâm vì đã có cán bộ hỗ trợ
+D. Là nhóm chỉ sử dụng dịch vụ công khi bắt buộc
+
+Câu 2. Theo Nghị định 42/2022/NĐ-CP, dịch vụ công trực tuyến được cung cấp cho tổ chức, cá nhân trên môi trường nào?
+A. Môi trường hành chính trực tiếp
+B. [✓ ĐÁP ÁN ĐÚNG] Môi trường mạng
+C. Môi trường bưu điện
+D. Môi trường nội bộ cơ quan
+
+Câu 3. Theo tình huống mở đầu bài học, nếu sử dụng dịch vụ công trực tuyến, một thủ tục hành chính có thể được giải quyết xong trong khoảng bao lâu?
+A. [✓ ĐÁP ÁN ĐÚNG] 5 phút, ngay tại nhà
+B. 1 ngày làm việc
+C. Nửa buổi tại cơ quan hành chính
+D. 1 tuần kể từ ngày nộp hồ sơ
+
+Câu 4. Thủ tục nào sau đây được liệt kê là thủ tục hành chính phổ biến có thể thực hiện trực tuyến, phù hợp với đoàn viên thanh niên?
+A. [✓ ĐÁP ÁN ĐÚNG] Đăng ký cư trú (tạm trú/thường trú)
+B. Đăng ký thành lập doanh nghiệp nước ngoài
+C. Đăng ký sở hữu trí tuệ quốc tế
+D. Đăng ký cấp phép xây dựng công trình lớn
+
+Câu 5. Ứng dụng VNeID trong 3 nền tảng dịch vụ công đóng vai trò chính là gì?
+A. Thanh toán trực tuyến lệ phí hành chính
+B. Tra cứu thủ tục hành chính của mọi tỉnh, thành
+C. [✓ ĐÁP ÁN ĐÚNG] Xác thực danh tính, định danh điện tử
+D. Lưu trữ hồ sơ y tế cá nhân
+
+Câu 6. Trong quy trình 6 bước thực hiện dịch vụ công trực tuyến, bước đầu tiên là gì?
+A. [✓ ĐÁP ÁN ĐÚNG] Tạo tài khoản
+B. Nộp hồ sơ trực tuyến
+C. Điền thông tin
+D. Theo dõi kết quả
+
+Câu 7. Trong quy trình 6 bước thực hiện dịch vụ công trực tuyến, bước cuối cùng là gì?
+A. Chọn dịch vụ
+B. Đăng nhập
+C. [✓ ĐÁP ÁN ĐÚNG] Theo dõi kết quả
+D. Tạo tài khoản
+
+Câu 8. Lợi ích “Tiết kiệm thời gian, chi phí” của dịch vụ công trực tuyến giúp người dân điều gì?
+A. [✓ ĐÁP ÁN ĐÚNG] Không cần trực tiếp đến cơ quan hành chính, hạn chế đi lại nhiều lần
+B. Được miễn hoàn toàn lệ phí thủ tục
+C. Không cần chuẩn bị hồ sơ giấy tờ
+D. Được ưu tiên xử lý trước mọi trường hợp khác
+
+Câu 9. Lợi ích “Công khai, minh bạch” của dịch vụ công trực tuyến được thể hiện qua điều gì?
+A. Giảm số lượng cán bộ tiếp nhận hồ sơ
+B. Tăng số lượng thủ tục hành chính
+C. [✓ ĐÁP ÁN ĐÚNG] Tiến độ xử lý hồ sơ được hiển thị rõ ràng
+D. Miễn hoàn toàn lệ phí thủ tục
+
+Câu 10. Trong 3 nền tảng dịch vụ công đã học, nền tảng nào đóng vai trò “cổng tổng” tích hợp thủ tục toàn quốc?
+A. VNeID
+B. [✓ ĐÁP ÁN ĐÚNG] Cổng Dịch vụ công Quốc gia
+C. Cổng Dịch vụ công TP Đà Nẵng
+D. Ứng dụng ngân hàng số
+
+
+============================================================
+BÀI KIỂM TRA SỐ 2 – THANH TOÁN SỐ: MUA SẮM THÔNG MINH
+============================================================
+
+Câu 11. Mã QR tĩnh (cá nhân) thường được tạo sẵn ở đâu?
+A. Chỉ tại quầy giao dịch ngân hàng
+B. [✓ ĐÁP ÁN ĐÚNG] App ngân hàng hoặc website VietQR.net
+C. Chỉ trên hóa đơn giấy
+D. Chỉ tại cổng thanh toán của sàn thương mại điện tử
+
+Câu 12. Khi thanh toán bằng thẻ nội địa NAPAS, người dùng xác thực giao dịch bằng cách nào?
+A. Quét vân tay tại cửa hàng
+B. [✓ ĐÁP ÁN ĐÚNG] Xác thực qua mã OTP
+C. Ký tên trên hóa đơn giấy
+D. Gọi điện xác nhận với ngân hàng
+
+Câu 13. Khi thanh toán bằng thẻ quốc tế (Visa/Mastercard...) trên sàn thương mại điện tử, người dùng cần nhập thêm thông tin gì để xác thực?
+A. [✓ ĐÁP ÁN ĐÚNG] Mã CVV
+B. Mã số thuế cá nhân
+C. Số căn cước công dân
+D. Mã số bảo hiểm xã hội
+
+Câu 14. Theo bài học, mục tiêu thứ hai của Video “Thanh Toán Số” là gì?
+A. Hướng dẫn cách khiếu nại khi bị trừ tiền sai
+B. [✓ ĐÁP ÁN ĐÚNG] Giới thiệu các hình thức mua sắm và phương thức thanh toán trực tuyến phổ biến
+C. Hướng dẫn cách mở tài khoản ngân hàng đầu tiên
+D. So sánh lãi suất tiết kiệm giữa các ngân hàng
+
+Câu 15. Chuyển khoản nhanh NAPAS 24/7 có đặc điểm nổi bật nào?
+A. Chỉ hoạt động trong giờ hành chính
+B. [✓ ĐÁP ÁN ĐÚNG] Chuyển tiền tức thời, kể cả ngoài giờ hành chính, cuối tuần, lễ Tết
+C. Chỉ áp dụng giữa các chi nhánh cùng một ngân hàng
+D. Yêu cầu xác nhận qua tổng đài trước khi chuyển
+
+Câu 16. Số liệu về tăng trưởng giao dịch không tiền mặt giai đoạn 2021–2025 trong bài học được dẫn từ nguồn nào?
+A. Napas.com.vn
+B. Thanhnien.vn
+C. Báo Tuổi trẻ
+D. Cổng TTĐT Bộ Khoa học và Công nghệ
+
+ĐÍNH CHÍNH CÂU 16:
+- Đáp án được chọn trong bài gốc: chưa đúng (câu này đạt 0/10).
+- [✓ ĐÁP ÁN ĐÚNG] Thanhnien.vn
+- Lưu ý: Trong bản PDF, phần “Câu trả lời đúng” ghi rõ “Thanhnien.vn”.
+
+Câu 17. Ví điện tử được định nghĩa trong bài học là gì?
+A. Một loại thẻ ngân hàng vật lý
+B. [✓ ĐÁP ÁN ĐÚNG] Tài khoản thanh toán trung gian, liên kết với thẻ ghi nợ/tài khoản ngân hàng
+C. Ứng dụng chỉ dùng để tra cứu số dư
+D. Một hình thức vay tiêu dùng trực tuyến
+
+Câu 18. Theo cập nhật của Ngân hàng Nhà nước (2/2026), giá trị thanh toán không dùng tiền mặt hiện gấp bao nhiêu lần GDP?
+A. 15 lần
+B. 20 lần
+C. [✓ ĐÁP ÁN ĐÚNG] 28 lần
+D. 35 lần
+
+Câu 19. Hạn mức tối đa cho mỗi giao dịch chuyển khoản nhanh NAPAS 24/7 là bao nhiêu?
+A. Dưới 100 triệu đồng
+B.  Dưới 200 triệu đồng
+C. [✓ ĐÁP ÁN ĐÚNG] Dưới 500 triệu đồng
+D. Dưới 1 tỷ đồng
+
+Câu 20. Điểm khác biệt của mã QR động so với mã QR tĩnh là gì?
+A. QR động không cần quét bằng điện thoại
+B. [✓ ĐÁP ÁN ĐÚNG] QR động đã cài sẵn số tiền cho mỗi giao dịch
+C. QR động chỉ dùng được ở nước ngoài
+D. QR động không cần kết nối internet
+
+
+============================================================
+BÀI KIỂM TRA SỐ 3 – THANH TOÁN TRỰC TUYẾN AN TOÀN
+============================================================
+
+Câu 21. Cơ quan nào đã phối hợp tổ chức chương trình tập huấn cho thanh niên nhằm hỗ trợ người cao tuổi phòng, chống lừa đảo trên không gian mạng?
+A. [✓ ĐÁP ÁN ĐÚNG] Cục An toàn thông tin
+B. Tổng cục Thuế
+C. Bộ Giáo dục và Đào tạo
+D. Sở Y tế địa phương
+
+Câu 22. Đặc điểm nhận diện của hình thức lừa đảo “Chuyển tiền gấp” là gì?
+A. Gửi email khuyến mãi giảm giá
+B. [✓ ĐÁP ÁN ĐÚNG] Tạo áp lực tâm lý, yêu cầu chuyển tiền ngay lập tức
+C. Gọi điện tư vấn mở thẻ tín dụng
+D. Gửi thư mời tham gia khảo sát, tạo áp lực tâm lý
+
+Câu 23. Vì sao người trẻ nên là người “cảnh báo sớm” về lừa đảo trực tuyến trong gia đình?
+A. Vì người trẻ có thu nhập cao hơn người lớn tuổi, do thiếu kỹ năng sử dụng thiết bị hiện đại
+B. [✓ ĐÁP ÁN ĐÚNG] Vì người cao tuổi đang là nhóm mục tiêu bị nhắm đến nhiều, do thiếu kỹ năng công nghệ
+C. Vì người trẻ ít sử dụng mạng xã hội hơn
+D. Vì người cao tuổi không có tài khoản ngân hàng
+
+Câu 24. Theo thống kê Bộ Công an, hình thức lừa đảo phổ biến nhất trong 11 tháng đầu năm 2025 là gì?
+A. Link thanh toán giả
+B. [✓ ĐÁP ÁN ĐÚNG] Mạo danh công an
+C. Lừa đảo mã OTP
+D. Giả mạo ngân hàng
+
+Câu 25. Bước đầu tiên cần làm khi phát hiện mình bị lừa đảo trực tuyến là gì?
+A. [✓ ĐÁP ÁN ĐÚNG] Khóa thẻ/tài khoản khẩn cấp
+B. Đăng bài cảnh báo lên mạng xã hội trước
+C. Chờ vài ngày để xác minh chắc chắn
+D. Đổi số điện thoại đang dùng
+
+Câu 26. Hình thức lừa đảo “Giả mạo ngân hàng, tổ chức tài chính” thường được thực hiện qua cách nào?
+A. [✓ ĐÁP ÁN ĐÚNG] Tạo website giả gần giống hệt giao diện ngân hàng thật
+B. Gửi thư tay đến địa chỉ nhà nạn nhân
+C. Đăng quảng cáo trên báo giấy
+D. Gọi điện mời tham gia khảo sát thị trường
+
+Câu 27. Theo nguyên tắc an toàn đã học, khi nhận yêu cầu chuyển tiền gấp qua điện thoại, bạn nên làm gì?
+A. Chuyển tiền ngay để tránh chậm trễ
+B. [✓ ĐÁP ÁN ĐÚNG] Xác minh lại qua kênh chính thức, gọi lại số tổng đài đã lưu sẵn
+C. Nhắn tin hỏi lại đúng số điện thoại vừa gọi đến
+D. Bỏ qua và không cần xử lý gì thêm
+
+Câu 28. Trong hình thức lừa đảo mã OTP, đối tượng thường giả danh ai để gọi điện cho nạn nhân?
+A. Giáo viên tại trường học
+B. Nhân viên giao hàng
+C. [✓ ĐÁP ÁN ĐÚNG] Tổng đài ngân hàng, tổ chức tín dụng, CIC
+D. Cán bộ thuế địa phương
+
+Câu 29. Link thanh toán giả thường được kẻ gian gài ở đâu để tiếp cận nạn nhân?
+A. [✓ ĐÁP ÁN ĐÚNG] Tin nhắn SMS, mạng xã hội (Zalo, Facebook)
+B. Chỉ trong email công việc nội bộ
+C. Chỉ trên báo giấy
+D. Chỉ qua thư mời họp trực tiếp
+
+Câu 30. Theo thống kê mới nhất từ Bộ Công an, thiệt hại do lừa đảo trực tuyến trong 11 tháng đầu năm 2025 ước tính ở mức nào?
+A. Trên 1.000 tỷ đồng
+B. Trên 3.000 tỷ đồng
+C. [✓ ĐÁP ÁN ĐÚNG] Trên 6.000 tỷ đồng
+D. Trên 10.000 tỷ đồng
+
+
+============================================================
+HẾT
+============================================================
