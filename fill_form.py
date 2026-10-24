@@ -15,7 +15,6 @@ from answers import ANSWER_BY_QUESTION, normalize
 from form import (
     CHI_DOAN,
     CLASS_CSV,
-    CLASS_NAME,
     DEFAULT_DELAY_SECONDS,
     FORM_URL,
     LOG_CSV,
@@ -398,7 +397,7 @@ def submit_student(
             raise RuntimeError("Too many pages; navigation did not finish")
 
 
-def append_log(row: dict) -> None:
+def append_log(log_csv: Path, row: dict) -> None:
     fields = [
         "stt",
         "ho_ten",
@@ -410,19 +409,19 @@ def append_log(row: dict) -> None:
         "submitted_at",
         "screenshot",
     ]
-    exists = LOG_CSV.exists()
-    with LOG_CSV.open("a", newline="", encoding="utf-8-sig") as f:
+    exists = log_csv.exists()
+    with log_csv.open("a", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         if not exists:
             writer.writeheader()
         writer.writerow({k: row.get(k, "") for k in fields})
 
 
-def load_submitted_stt() -> set[str]:
-    if not LOG_CSV.exists():
+def load_submitted_stt(log_csv: Path) -> set[str]:
+    if not log_csv.exists():
         return set()
     submitted = set()
-    with LOG_CSV.open(newline="", encoding="utf-8-sig") as f:
+    with log_csv.open(newline="", encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
             if row.get("status") == "submitted" and row.get("stt"):
                 submitted.add(row["stt"].strip())
@@ -432,6 +431,12 @@ def load_submitted_stt() -> set[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Auto-fill the CHỦ ĐỀ 3 Google Form for each student."
+    )
+    parser.add_argument(
+        "--csv",
+        type=Path,
+        default=CLASS_CSV,
+        help=f"Student CSV file to process (default: {CLASS_CSV})",
     )
     parser.add_argument("--limit", type=int, default=None, help="Max students to run")
     parser.add_argument(
@@ -445,7 +450,7 @@ def main() -> int:
     parser.add_argument(
         "--debug",
         action="store_true",
-        help="Save a screenshot of every page under screenshots/debug",
+        help="Save a screenshot of every page under the output folder's debug/",
     )
     parser.add_argument(
         "--headless", action="store_true", help="Run headless (default: headed)"
@@ -458,8 +463,21 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    students = load_students(CLASS_CSV)
-    submitted = load_submitted_stt()
+    csv_path: Path = args.csv
+    if not csv_path.is_file():
+        print(f"CSV file not found: {csv_path}")
+        return 1
+
+    class_name = csv_path.stem
+    output_dir = SCREENSHOT_DIR / f"{class_name}_csv"
+    log_csv = (
+        LOG_CSV
+        if csv_path.resolve() == CLASS_CSV.resolve()
+        else LOG_CSV.with_name(f"{LOG_CSV.stem}_{slugify(class_name)}.csv")
+    )
+
+    students = load_students(csv_path)
+    submitted = load_submitted_stt(log_csv)
     students = [s for s in students if s["stt"].strip() not in submitted]
     selected = students[args.start - 1 :]
     if args.limit is not None:
@@ -469,13 +487,13 @@ def main() -> int:
         print("No students selected.")
         return 1
 
-    SCREENSHOT_DIR.mkdir(parents=True, exist_ok=True)
-    debug_root = SCREENSHOT_DIR / "debug" if args.debug else None
+    output_dir.mkdir(parents=True, exist_ok=True)
+    debug_root = output_dir / "debug" if args.debug else None
 
     print(
-        f"Running {len(selected)} student(s) from {CLASS_CSV} "
+        f"Running {len(selected)} student(s) from {csv_path} "
         f"({'dry-run' if args.dry_run else 'SUBMIT'}, "
-        f"{'headless' if args.headless else 'headed'})"
+        f"{'headless' if args.headless else 'headed'}) -> {output_dir}"
     )
 
     success = 0
@@ -504,7 +522,7 @@ def main() -> int:
             debug_dir = None
             if debug_root:
                 debug_dir = debug_root / slugify(
-                    f"{CLASS_NAME}_{student['stt']}_{student['name']}"
+                    f"{class_name}_{student['stt']}_{student['name']}"
                 )
                 debug_dir.mkdir(parents=True, exist_ok=True)
 
@@ -514,8 +532,8 @@ def main() -> int:
                 else slugify(student["stt"])
             )
             screenshot_path = (
-                SCREENSHOT_DIR
-                / f"{CLASS_NAME}_{stt_token}_{slugify(student['name'])}.png"
+                output_dir
+                / f"{class_name}_{stt_token}_{slugify(student['name'])}.png"
             )
 
             last_error = None
@@ -536,6 +554,7 @@ def main() -> int:
                     page.screenshot(path=str(screenshot_path), full_page=True)
 
                     append_log(
+                        log_csv,
                         {
                             "stt": student["stt"],
                             "ho_ten": student["name"],
@@ -558,8 +577,8 @@ def main() -> int:
                     break
                 except Exception as exc:
                     last_error = exc
-                    error_path = SCREENSHOT_DIR / (
-                        f"ERROR_{CLASS_NAME}_{stt_token}_{slugify(student['name'])}"
+                    error_path = output_dir / (
+                        f"ERROR_{class_name}_{stt_token}_{slugify(student['name'])}"
                         f"_attempt{attempt}.png"
                     )
                     try:
@@ -582,6 +601,7 @@ def main() -> int:
             if last_error is not None:
                 failed += 1
                 append_log(
+                    log_csv,
                     {
                         "stt": student["stt"],
                         "ho_ten": student["name"],
