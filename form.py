@@ -9,7 +9,8 @@ CLASS_NAME = "Long"
 CLASS_CSV = Path("dataset/csv/Long.csv")
 
 UNIT = "Đoàn phường Hòa Cường"
-CHI_DOAN = "THPT Nguyễn Hiền"
+# CHI_DOAN = "THPT Nguyễn Hiền"
+CHI_DOAN = "Trường CĐ Phương Đông Đà Nẵng"
 
 # Entry IDs (kept for reference / possible direct POST fallback)
 ENTRY_IDS = {
